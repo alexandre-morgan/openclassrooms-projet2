@@ -6,6 +6,10 @@ body{
     list-style-type: none;
 }
 
+* h3{
+    margin-top: 16px;
+}
+
 @font-face {
     font-family: 'Montserrat';
     src: url('Fonts/Montserrat-Regular.otf') format('otf');
@@ -30,19 +34,21 @@ header{
 .colonne1{
     flex:4;
     background-color: RGB(254,202,7);
-    min-height: 1000px;
+    min-height: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    max-width: 600px;
     padding-top:15px;
     padding-bottom: 15px;
+    margin:auto;
+    margin-top: 0;
 }
 
 .titreCol1{
     background-color: RGB(64,64,64);
     text-align: center;
-    padding:3px;
+    padding:5px;
     color:RGB(254,202,7);
 }
 
@@ -56,7 +62,7 @@ header{
 
 .colonne1 p{
     text-align: justify;
-    padding:15px;
+    margin:35px;
 }
 
 .loisirs{
@@ -74,6 +80,12 @@ header{
 .container{
     display:flex;
 }
+
+h1{
+    font-size:3em;
+    margin-bottom: 16px;
+}
+
 
 .black{
     color:black;
@@ -133,8 +145,36 @@ header{
     padding-left:0;
 }
 
-i{
+.titleIcons{
     vertical-align: middle;
 }
 
 /* MEDIA QUERY FOR A RESPONSIVE WEBSITE*/
+
+/* Medium and smaller */
+@media (max-width: 991.98px) {
+    .colonnesX2{
+        flex-direction: column;
+    }
+
+    .colonne2{
+        order: 1;
+    }
+
+    .colonne1{
+        order: 2;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container{
+        flex-direction: column;
+    }
+    .borderOnlyOnXs{
+        border-bottom: solid black 1px;
+    }
+    .formationCol2{
+        padding-left: 25px;
+    }
+
+}
