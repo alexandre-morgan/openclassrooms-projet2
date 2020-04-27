@@ -16,7 +16,43 @@ header{
 
 .colonne1{
     flex:4;
-    background-color: RGB(254,202,7);;
+    background-color: RGB(254,202,7);
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.titreCol1{
+    background-color: RGB(64,64,64);
+    text-align: center;
+    padding:3px;
+    color:RGB(254,202,7);
+}
+
+.photoId{
+    text-align: center;
+}
+
+.photoCircle{
+    border-radius: 50%;
+}
+
+.contact ul{
+    list-style-type: none;
+}
+
+.colonne1 p{
+    text-align: justify;
+    padding:15px;
+}
+
+.loisirs{
+    text-align: center;
+    
 }
 
 .colonne2{
