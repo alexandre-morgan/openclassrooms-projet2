@@ -6,10 +6,6 @@ body{
     list-style-type: none;
 }
 
-* h3{
-    margin-top: 16px;
-}
-
 @font-face {
     font-family: 'Montserrat';
     src: url('Fonts/Montserrat-Regular.otf') format('otf');
@@ -20,7 +16,6 @@ body{
     margin:auto;
     color:RGB(64,64,64);
     font-family:  'Montserrat', Helvetica, Times, sans-serif;
-
 }
 
 header{
@@ -85,7 +80,6 @@ h1{
     font-size:3em;
     margin-bottom: 16px;
 }
-
 
 .black{
     color:black;
