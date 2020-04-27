@@ -2,10 +2,6 @@ body{
     margin:0;
 }
 
-* ul{
-    list-style-type: none;
-}
-
 @font-face {
     font-family: 'Montserrat';
     src: url('Fonts/Montserrat-Regular.otf') format('otf');
@@ -53,6 +49,10 @@ header{
 
 .photoCircle{
     border-radius: 50%;
+}
+
+.contact ul{
+    list-style-type: none;
 }
 
 .colonne1 p{
@@ -129,6 +129,7 @@ h1{
 
 .recommandationsCol1 ul{
     padding-left:0;
+    list-style-type: none;
 }
 
 .recommandationsCol2{
@@ -137,6 +138,7 @@ h1{
 
 .recommandationsCol2 ul{
     padding-left:0;
+    list-style-type: none;
 }
 
 .titleIcons{
