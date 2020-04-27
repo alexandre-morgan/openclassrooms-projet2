@@ -1,0 +1,25 @@
+body{
+    margin:0;
+}
+
+#page{
+
+}
+
+header{
+    display:none;
+}
+
+.colonnesX2{
+    display:flex;
+}
+
+.colonne1{
+    flex:4;
+    background-color: RGB(254,202,7);;
+}
+
+.colonne2{
+    flex:8;
+    
+}
