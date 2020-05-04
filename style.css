@@ -25,7 +25,7 @@ header{
 .colonne1{
     flex:4;
     background-color: RGB(254,202,7);
-    min-height: 1400px;
+    min-height: 1700px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
