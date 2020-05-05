@@ -7,11 +7,6 @@ body{
     src: url('Fonts/Montserrat-Regular.otf') format('otf');
 }
 
-@font-face{
-    font-family:'Raleway';
-    src:url('Fonts/Raleway-Light.ttf') format('tff');
-}
-
 #page{
     max-width: 1200px;
     margin:auto;
@@ -168,6 +163,8 @@ h1{
 
     .colonne1{
         order: 2;
+        min-height: auto;
+        justify-content: start;
     }
 }
 
