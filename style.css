@@ -77,8 +77,8 @@ header{
     margin:50px;
 }
 
-#prenomTitre{
-    font-family:  'Raleway', Helvetica, Times, sans-serif;
+#prenomTitre, strong{
+    font-weight:lighter;
 }
 
 .container{
