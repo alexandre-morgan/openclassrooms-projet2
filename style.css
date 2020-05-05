@@ -7,6 +7,11 @@ body{
     src: url('Fonts/Montserrat-Regular.otf') format('otf');
 }
 
+@font-face{
+    font-family:'Raleway';
+    src:url('Fonts/Raleway-Light.ttf') format('tff');
+}
+
 #page{
     max-width: 1200px;
     margin:auto;
@@ -43,7 +48,7 @@ header{
     color:RGB(254,202,7);
 }
 
-.photoId{
+#photoId{
     text-align: center;
 }
 
@@ -70,6 +75,10 @@ header{
 .colonne2{
     flex:7;
     margin:50px;
+}
+
+#prenomTitre{
+    font-family:  'Raleway', Helvetica, Times, sans-serif;
 }
 
 .container{
