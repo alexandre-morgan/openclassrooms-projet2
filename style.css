@@ -160,17 +160,13 @@ h1{
         flex-direction: column;
     }
 
-    .colonne2{
-        order: 1;
-    }
-
     .colonne1{
-        order: 2;
         min-height: auto;
         justify-content: start;
     }
 }
 
+/* Small and smaller */
 @media (max-width: 575.98px) {
     .container{
         flex-direction: column;
